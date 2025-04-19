@@ -1,0 +1,138 @@
+Purpose
+
+The purpose of this document is to define the requirements for an Event Management Website that allows users to plan, manage, and promote events efficiently
+
+Scope
+
+The system will provide users with functionalities such as event creation, booking, ticketing, and attendee management. The platform will cater to event organizers, attendees, and sponsors 
+
+Product Functions
+
+User Registration and Authentication
+
+Event Creation and Management
+
+Ticket Booking and Payment Processing
+
+Attendee Check-in and Management
+
+Event Promotion via Social Media
+
+Admin Dashboard for Reports and Analytics
+
+Functional Requirements
+
+3.1.1 User Management
+
+Users must register/login using email and password.
+
+Social media login integration.
+
+Profile management and password reset.
+
+3.1.2 Event Management
+
+Organizers can create and edit event details (title, description, date, location, etc.).
+
+Users can search for events by category, date, or location.
+
+Users can view event details and register.
+
+3.1.3 Ticketing and Payments
+
+Secure payment processing via Stripe/PayPal.
+
+QR code-based e-tickets for verification.
+
+Refund and cancellation policy implementation.
+
+3.1.4 Notifications
+
+Email confirmations for bookings.
+
+Event reminders via email/SMS.
+
+Admin notifications for disputes or issues.
+
+3.1.5 Reporting and Analytics
+
+Event statistics (registrations, revenue, etc.).
+
+Attendee demographics.
+
+Export reports in CSV format
+
+
+
+
+3.1 Functional Requirements
+
+3.1.1 User Management
+
+Users must register/login using email and password.
+
+Social media login integration.
+
+Profile management and password reset.
+
+3.1.2 Event Management
+
+Organizers can create and edit event details (title, description, date, location, etc.).
+
+Users can search for events by category, date, or location.
+
+Users can view event details and register.
+
+3.1.3 Ticketing and Payments
+
+Secure payment processing via Stripe/PayPal.
+
+QR code-based e-tickets for verification.
+
+Refund and cancellation policy implementation.
+
+3.1.4 Notifications
+
+Email confirmations for bookings.
+
+Event reminders via email/SMS.
+
+Admin notifications for disputes or issues.
+
+3.1.5 Reporting and Analytics
+
+Event statistics (registrations, revenue, etc.).
+
+Attendee demographics.
+
+Export reports in CSV format.
+
+3.2 Non-Functional Requirements
+
+3.2.1 Performance
+
+The system must handle 5000+ concurrent users.
+
+Page load time should be under 3 seconds.
+
+3.2.2 Security
+
+Data encryption for sensitive information.
+
+Role-based access control.
+
+Regular security audits.
+
+3.2.3 Usability
+
+User-friendly UI/UX.
+
+Mobile responsiveness.
+
+Accessibility compliance (WCAG standards).
+
+3.2.4 Availability
+
+99.9% uptime guarantee.
+
+Cloud-based hosting for scalability
